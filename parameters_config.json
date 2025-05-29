@@ -1,6 +1,6 @@
 [
     {
-        "relative_url" : "TerryNguyen1403/ETL-With-Azure/refs/heads/main/chung%20cu%20chotot.csv",
+        "relative_url" : "TerryNguyen1403/TerryNguyen1403/ETL-With-Azure/refs/heads/main/chung_cu_cho_tot.csv",
         "sink_folder" : "Apartment Dataset",
         "sink_file" : "chung_cu_cho_tot.csv"
     }
