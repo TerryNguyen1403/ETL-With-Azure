@@ -18,9 +18,15 @@ This project demonstrates how to create a data pipeline using Azure tools to ing
 - Azure Synapse Analytics (For analytics)
 - Power BI (For reporting)
 
-
+## About parameters_config.json:
+I used this JSON File to config a dynamic 
 
 ## Getting Started
-1. Clone the repository:
+1. Create Azure Free Account.
+2. Create a new resource group to hold related resources within an Azure solution.
+3. Create Azure Data Factory (ADF):
+   - In ADF, click on Author tab and create a Pipeline with 3 activities: Lookup, ForEach and CopyData for copying data from HTTP source and store its raw data in bronze container.
+4. Create Databricks and using PySpark script for cleaning data.
+5. In the end, we will use Synapse to query datas from silver container and serving in Power BI for analyze.
 
 
