@@ -12,6 +12,8 @@ This project demonstrates how to create a data pipeline using Azure tools to ing
 - **Data Transformation**: Transform data into business-level insights in the Gold layer.
 - **Analytics & ML**: Support streaming analytics, BI reporting, and data science/ML workflows. However, this project focuses on Power BI reporting.
 
+## Original Data Link:
+ www.kaggle.com/datasets/hoandan/apartment-prices-in-the-city-ho-chi-minh-city
 ## Technologies Used
 - Azure Data Factory (For ingestion)
 - Azure Databricks (For processing)
