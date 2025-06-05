@@ -28,6 +28,8 @@ I used this JSON File to config a dynamic
    ![image](https://github.com/user-attachments/assets/65c1909b-21eb-4934-b5f0-7d322bced27f)
    - In ADF, click on Author tab and create a Pipeline with 3 activities: Lookup, ForEach and CopyData for copying data from HTTP source and store its raw data in bronze container.
 4. Create Databricks and using PySpark script for cleaning data.
-5. In the end, we will use Synapse script to query datas from silver container and serving in Power BI for analyze.
+5. In the end, we will use Synapse script to query datas from silver container and serving in Power BI for analyze. To connect to Azure Data Lake Gen2 via Power BI, we need 2 important components: MASTER KEY and Serverless SQL End-point. After the connection is successfully, we will be able to analyze these insights, the image below is my example analysis:
+   ![image](https://github.com/user-attachments/assets/9f8362df-1b03-41d9-acfe-2135b2fd37fb)
+
 
 
